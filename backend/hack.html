@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacker Registration UI</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #00FF00;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      background-image: url('https://via.placeholder.com/1500x1000'); /* You can add a custom matrix code background */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.7);
+      width: 350px;
+      text-align: center;
+      border: 1px solid #00FF00;
+    }
+
+    h1 {
+      color: #00FF00;
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-shadow: 0px 0px 10px rgba(0, 255, 0, 0.8);
+    }
+
+    .input-field {
+      background-color: transparent;
+      border: 1px solid #00FF00;
+      padding: 10px;
+      margin: 10px 0;
+      color: #00FF00;
+      font-size: 1em;
+      width: 100%;
+      border-radius: 5px;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    .input-field:focus {
+      border-color: #FF5733;
+      box-shadow: 0px 0px 15px rgba(255, 87, 51, 0.8);
+    }
+
+    .submit-btn {
+      background-color: #00FF00;
+      color: #121212;
+      border: none;
+      padding: 15px;
+      font-size: 1.2em;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background-color: #FF5733;
+      box-shadow: 0px 0px 15px rgba(255, 87, 51, 0.8);
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 0.8em;
+      color: #777;
+    }
+
+    .footer a {
+      color: #00FF00;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .footer a:hover {
+      color: #FF5733;
+    }
+
+    @keyframes glitch {
+      0% { text-shadow: 2px 0 red, -2px 0 green, 2px 0 blue; }
+      25% { text-shadow: -2px 0 red, 2px 0 green, -2px 0 blue; }
+      50% { text-shadow: 2px 0 red, -2px 0 green, 2px 0 blue; }
+      75% { text-shadow: -2px 0 red, 2px 0 green, -2px 0 blue; }
+      100% { text-shadow: 2px 0 red, -2px 0 green, 2px 0 blue; }
+    }
+
+    h1 {
+      animation: glitch 1s infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Agency Registration</h1>
+    <form>
+      <input type="text" class="input-field" placeholder="Username" required>
+      <input type="password" class="input-field" placeholder="Password" required>
+      <input type="email" class="input-field" placeholder="Email Address" required>
+      <button type="submit" class="submit-btn">Register</button>
+    </form>
+    <div class="footer">
+      <p>Already have an account? <a href="#">Login</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
