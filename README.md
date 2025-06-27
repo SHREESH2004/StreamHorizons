@@ -7,7 +7,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/MERN%20Stack-Full--Power-blueviolet?style=flat-square" />
-  <img src="https://img.shields.io/badge/Streaming-Live%20and%20On-Demand-ff69b4?style=flat-square" />
   <img src="https://img.shields.io/badge/UI-Stylish%20AF-ec4899?style=flat-square" />
 </p>
 
