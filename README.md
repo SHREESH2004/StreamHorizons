@@ -133,7 +133,7 @@ streamhorizon/
 ## 🎥 Sneak Peek
 
 <p align="center">
-  <img src="https://your-screenshot-link.com/stream-ui.png" width="700" alt="StreamHorizon UI Preview" />
+Will be uploaded after some ui changes. Development under process
 </p>
 
 ---
